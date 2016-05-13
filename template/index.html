@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=0">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="format-detection" content="telephone=no">
+		<!--iPhone/iPod Touch上将网页"添加至主屏幕"时，去掉icon上的透明层-->
+		<link rel="apple-touch-icon-precomposed" href="images/apple-touch-icon.png">
+		<link rel="stylesheet" type="text/css" href="../css/common.css"/>
+		<script type="text/javascript" src="../js/jquery.min.js"></script>
+		<title>mobile CSS</title>
+		<style type="text/css">
+			a,p{margin-bottom: 0.2rem;}
+			b{font-weight: bold;color: #333;}
+			a{font-size: 1.6rem;text-indent: 2rem;line-height: 3rem;height: 3rem;}
+		</style>
+	</head>
+	<body>
+		<p class="tit_normalleft">常见reset样式:</p>
+		<div class="padding_center redborder">
+			<b>1.body默认设置：</b>
+			<p>background: #f4f4f4; height: auto; min-height:100%; width: 100%; overflow:auto;</p>
+			<b></b>2.字体默认设置：</p>
+			<p>font-size: 1.2rem;font-family: Arial, "Microsoft YaHei", "微软雅黑","宋体"; color: #666;</p>
+			<b>3.通用设置：</b>
+			<p>*:margin: 0; padding: 0;-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;</p>
+			<b>4. 其它一些特殊设置</b>
+			<p><b>禁止Safari等浏览器的默认点击事件的高亮:</b>在body中设置-webkit-tap-highlight-color: none;</p>
+			<p><b>禁止Safari等浏览器的默认button样式：</b> input[type=button],button,a{-appearance: none;-moz-appearance: none;-webkit-appearance: none;}</p>
+		</div>
+		<p class="validate_text">*上面的文本框用padding_center设置,本句是说明文字</p>
+		<p class="validate_text">*以下是各部件的详细说明链接</p>
+		<a href="btn.html" class="blue_href">按钮的样式说明</a>
+		<a href="layout.html" class="blue_href">布局样式</a>
+		<a href="input.html" class="blue_href">输入框，下拉框等</a>
+		<a href="title_text.html" class="blue_href">标题、文字、链接</a>
+		<a href="prolist.html" class="blue_href">基本的产品列表排列</a>
+		<a href="chartjs.html" class="blue_href">chartjs</a>
+		<a href="slidebanner.html" class="blue_href">焦点图切换</a>
+	</body>
+</html>
