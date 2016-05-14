@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=0">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="format-detection" content="telephone=no">
+		<!--iPhone/iPod Touch上将网页"添加至主屏幕"时，去掉icon上的透明层-->
+		<link rel="apple-touch-icon-precomposed" href="images/apple-touch-icon.png">
+		<link rel="stylesheet" type="text/css" href="../css/common.css"/>
+		<script type="text/javascript" src="../js/jquery.min.js"></script>
+		<style type="text/css">
+			hr{margin-top: 1.5rem;}
+		</style>
+		<title>常见布局</title>
+	</head>
+	<body>
+		<a href="index.html" class="square_btn fixed_top" style="font-size: 1.2rem;">首页</a>
+		<img src="../images/banner_01.jpg" class="bannerimg" title="这是一个全屏的banner样式"/>
+		<p class="validate_text">*上图是一个宽度全屏的banner图片</p>
+		<hr />
+		<img src="../images/icon-kingstone.png" class="mainico"/>
+		<p class="validate_text">*上图是一个宽度为20%的ico图片，如个人中心，金豆等地方使用到</p>
+		<hr />
+		<p class="validate_text">下面是一个操作结果提示框，也可以用作结果查询，提示图片的规格有两种</p>
+		<div class="resultbox">
+            <img src="../images/ico_success.png" class="resultpic" />
+            <p class="resulttip">恭喜您！操作完成！</p>
+            <p class="result_tipsmall">您的XXXXX成功，请XXXX。</p>
+            <a href="user.php?act=login" class="btn resultbtn">按钮(或链接)</a>
+        </div>
+        <hr />
+        <p class="validate_text">下面是一个操作结果提示框，用作结果查询，这是稍大的提示图片</p>
+        <div class="resultbox">
+            <img src="../images/order-list-transparent.png" class="resultpic_big" />
+            <p class="resulttip">没有查询结果</p>
+            <a href="user.php?act=login" class="resulthref">按钮(或链接)</a>
+        </div>
+
+
+	</body>
+</html>

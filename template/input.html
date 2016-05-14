@@ -1,0 +1,49 @@
+	<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=0">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="format-detection" content="telephone=no">
+		<!--iPhone/iPod Touch上将网页"添加至主屏幕"时，去掉icon上的透明层-->
+		<link rel="apple-touch-icon-precomposed" href="images/apple-touch-icon.png">
+		<link rel="stylesheet" type="text/css" href="../css/common.css"/>
+		<script type="text/javascript" src="../js/jquery.min.js"></script>
+		<title>按钮的样式说明</title>
+		<style type="text/css">
+			a,div,p,input{margin-bottom: 0.2rem;}
+		</style>
+	</head>
+	<body>
+		<a href="index.html" class="square_btn fixed_top" style="font-size: 1.2rem;">首页</a>
+		<div class="padding_center redborder heightauto">
+			<p class="validate_text">*此页面是一个有padding的框，不是以下标签所带的padding</p>
+			<input type="text" name="" id="" value="" placeholder="默认的输入框placehold" />
+			<input type="text" name="" id="" value="默认的文字输入框" placeholder="" />
+			<input type="text" name="" id="" value="大一点的input" class="biginput" />
+			<p class="radiusbtn">
+				<input type="text" name="" id="" value="radiusleft" />
+				<input type="button" name="" id="" value="radiusright" />
+				<em class="validate_text">*常见的左边输入框，右边按钮</em>
+			</p>
+			<p>
+				<input type="checkbox" name="" id="" value="" />
+				<input type="checkbox" name="" id="" checked="checked" value="" />
+				<input type="checkbox" name="" id="" value="" disabled="disabled" />
+				<em>*checkbox默认样式</em>
+			</p>
+			<p>
+				<input type="radio" name="radio" id="" value="" checked="" />
+				<input type="radio" name="radio" id="" value="" checked="true"/>
+				<input type="radio" name="radio" id="" value="" disabled="disabled"/>
+				<em>*radio默认样式</em>
+			</p>
+			<select name="select" style="width: 100%;">
+				<option value="option1">option1</option>
+				<option value="option2" selected="selected">option2</option>
+				<option value="option3">option3</option>
+			</select>
+		</div>
+		<input type="text" name="" id="" class="input_screen" style="margin-top: 1rem;" value="这个是占满整个屏幕，无左右边框的输入框" />
+	</body>
+</html>

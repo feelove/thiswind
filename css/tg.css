@@ -1,0 +1,177 @@
+/********黄金托管**********/
+.current_price{width: 100%;height: 10rem;background: #fff;margin-bottom: 1.25rem;padding: 1rem 0;}
+.current_price ul{padding-top: 0.6rem;width: 45%;height:4rem;float: left;margin-left: 5%;text-align: center;}
+.current_price ul li img{width: 3rem;height:3rem;line-height: 3rem;float: left;margin-top: 0.1rem;}
+.current_price ul li:first-child{width: 30%;}
+.current_price ul li:nth-child(2){width: 70%;float: left;text-align: left;font-size: 1.4rem;text-indent: 1rem;}
+.current_price ul li:last-child{width: 70%;text-align: left;float: left;font-size: 1rem;color: #999999;text-indent: 1rem;}
+/*托管新产品*/
+.new_proprietary{width: 100%;height: 21rem;background: #fff;margin-bottom: 1.25rem;}
+.new_proprietary>p{width: 100%;height: 4.3rem;line-height: 4.3rem;border-bottom: 1px dashed #a9a9a9;font-size: 1.875rem;text-indent: 1.5rem;color: #606cbf;}
+.new_proprietary>p img{vertical-align: middle;width: 8rem;}
+.new_proprietary>p span{margin-left: -6.2rem;color: #fff;letter-spacing: 1px;font-size: 1rem;}
+.new_proprietary .annual_yield{width: 100%;height: 15rem;text-align: center;}
+.new_proprietary .annual_yield p{width: 17.5rem;height: 7rem;margin: auto;font-size: 1.6rem;color: #666666;margin-top: 1.8rem;}
+.new_proprietary .annual_yield p>span{display: inline-block;width: 13rem;height: 7rem;float: left;}
+.new_proprietary .annual_yield p big{display: inline-block;width: 10.5rem;height: 5rem;line-height: 5rem;font-size: 5rem;color: #e02228;}
+.new_proprietary .annual_yield big small{font-size: 2.75rem;color: #7f7f7f;}
+.new_proprietary .annual_yield p>label{display: inline-block;width:4.5rem ;height: 4.5rem;line-height: 4.5rem;color: #fff;font-size: 1.5rem;background: url(../images/tg_img/annual-yield_03.png) no-repeat;background-size: contain;float: left;/*margin-left: -1rem;*/margin-top:-0.5rem;}
+.new_proprietary .annual_yield ul{width: 100%;height: 8rem;padding: 2rem 0;}
+.new_proprietary .annual_yield ul li{width: 25%;height: 4rem;float: left;font-size: 1.125rem;color: #7f7f7f;}
+.new_proprietary .annual_yield ul li span{font-size: 1.875rem;color: #E02228;}
+.new_proprietary .annual_yield ul li a{display: block;width: 7.5rem;height: 2.8rem;line-height: 2.8rem;background: #E02228;border-radius: 5px;color: #fff;font-size: 1.125rem;margin-top:0.7rem;}
+.new_proprietary .annual_yield ul li img{width: 6rem;height: 6rem;margin: -4.5rem 0 0 -1.9rem;}
+/*新手金*/
+.New_gold{width: 100%; height: auto; background: #fff; padding-bottom: 1.2rem; position: relative;}
+.New_gold>img{position: absolute; width: 16%; left: 42%; bottom: 10%;}
+.New_gold h4{width: 100%; height: 3.5rem; line-height: 3.5rem; font-size: 1.6rem; font-weight: normal; text-indent: 1rem; border-bottom: 1px dashed #a9a9a9;}
+.New_gold h4 img{display: inline-block; width: 5rem;}
+.New_gold .new_yield{width: 100%; height: auto; padding: 1.5rem 0; position: relative;}
+.new_yield P{width: 90%; margin: auto; font-size: 2rem; text-align: center; color: #f1594e;}
+.new_yield P span{font-size: 3rem; color: #f1594e;}
+.new_yield label{display: block; text-align: center; font-size: 1rem; color: #999999;}
+.new_yield img{position: absolute; top: 0; right: 0; height: 70%;}
+.New_gold ul{width: 90%; margin: auto; height: 2.5rem;}
+.New_gold ul li{width: 33.33%; float: left; line-height: 2.5rem; text-align: center; font-size: 1.2rem; border-top: 5px solid #dfdfdf;}
+.New_gold ul li span{color: #f1594e; font-size: 1.2rem; display: inline-block; margin: 0 0.3rem;}
+.New_gold ul li:nth-of-type(2){border-top: 5px solid #c6c6c6;}
+/*双重收益系列*/
+.Double_income,.Make_gold{width: 100%; height: auto;}
+.Double_income h4,.Make_gold h4,.partner_wrap h4{width: 95%; height: 4rem; line-height: 4.8rem; margin: auto; font-size: 1.6rem; font-weight: normal;}
+.Double_income h4 img,.Make_gold h4 img{height: 3rem; float: left; margin:0.5rem 0.5rem 0 0;}
+.Double_income h4 span,.Make_gold h4 span{font-size: 1.2rem; color: #999999;}
+.Double_income i,.Make_gold i{display: block; width: 3%; height: 15rem; float: left; background: #fa4d51;}
+.Double_income ul,.Make_gold ul{width: 97%; background: #fff; float: left;}
+.Double_income ul li,.Make_gold ul li{width:100%; height: 5rem; border-bottom: 1px solid #dfdfdf; float: right;}
+.Double_income ul li:last-child,.Make_gold ul li:last-child{border: none;}
+.Double_income ul li .yield,.Make_gold ul li .yield{width: 20%; height: 3.6rem; float: left; border-right: 1px dashed #e5e5e5; margin-top: 1rem; text-align: center; position: relative;}
+.Double_income ul li:first-child em,.Make_gold ul li:first-child em{display: block; width: 1rem; height: 1rem; border-radius: 1rem; position: absolute; top: -1.2rem; right: -0.5rem; background: #f4f4f4;}
+.Double_income ul li:last-child em,.Make_gold ul li:last-child em{display: block; width: 1rem; height: 1rem; border-radius: 1rem; position: absolute; bottom: -1.2rem; right: -0.5rem; background: #f4f4f4;}
+.Double_income ul li .deposit_gold,.Make_gold ul li .deposit_gold{padding-top: 0.8rem; width: 79%; height: 100%; text-align: left; float: left; text-indent: 1.5rem; position: relative;}
+.Double_income ul label,.Make_gold ul label{display: block; font-size: 1.4rem; color: #fa4d51;}
+.deposit_gold label,.deposit_gold p,.deposit_gold label,.deposit_gold p{width: 88%; height: 1.8rem; color: #999999;overflow: hidden;}
+.yield p{color: #999;}
+.deposit_gold span.arrow-right-outer,.Make_gold span.arrow-right-outer{left: 85%; right: 0;}
+.Make_gold ul label{color: #606cbf;}
+.Make_gold i{background: #606cbf;}
+.Make_gold .deposit_gold img{width: 2.5rem; position: absolute; top: 1.25rem; left: 50%;}
+/*托管*/
+.red{color: #e02228;font-weight: normal;}
+.viewport .prodes{background: #fff;width: 100%;height: auto;font-size:1rem;line-height: 10rem;padding: 0;}
+.viewport .tit{background: #f3943e;width: 100%;height: 4rem;font-size:1.8rem;color: #fff;line-height: 4rem;padding: 0 5%;}
+.viewport .prodes .content{background: #fff;width: 25rem;height: 4rem;font-size:1.4rem;line-height: 2.5rem;margin: 0 auto;padding:2rem 0 0 0;}
+.viewport .prodes .content li{width: auto;height:1.4rem;line-height: 1.4rem;margin-left: 2%;padding-right: 2%;border-right: 1px solid #ccc;float: left;text-align: center;}
+.viewport .prodes .content li b{font-size: 1.8rem;color: #e02228;line-height: 0.4rem;font-weight: normal;}
+.viewport .prodes .content li p.bottom{height:1.4rem;line-height: 1.4rem;}
+.viewport .prodes .content li p{font-size: 1rem;width: auto;float: left;}
+.viewport .prodes .ico{width: 90%;background: #fff;height: auto;line-height: 2.5rem;margin: 0 5%;padding:2rem 0 0;}
+.viewport .prodes .ico li{width: 50%;height: auto;float: left;margin-bottom: 2rem;}
+.viewport .prodes .ico img{width: 3rem;margin: 0 0.5rem 0 0;float: left;}
+.viewport .prodes .ico p{width: auto;text-align: left;/*float: left;*/font-size:1rem;line-height: 1.6rem;}
+.textdes{background: #fff;width: 100%;height: auto;font-size:1.2rem;line-height: 2.2rem;background: #fff;margin:0;padding:1rem 0;}
+.innertext{width: 90%;height: auto;border-radius: 4px;background: #f5f5f5;margin: 0 5%;padding: 0 0 1rem 0;}
+.innertext .pc_index{display: none;}
+.textdes p.title{font-size: 1.4rem;color: #333;line-height:4rem;height: 3.2rem;width: 6rem;padding: 0;border-bottom: 1px solid #e02228;text-align: center;margin-left: 5%;margin-bottom: 0.6rem;color: #e02228;}
+.textdes ul{padding-left: 1rem;padding-right:1rem ;}
+.textdes ul ul li{font-size: 1.2rem;line-height: 2rem;height: auto;width: 100%;}
+.textdes ul ul{padding-left: 0;float: left;}
+.textdes ul li{width: 100%;float: left;}
+.textdes ul li p{width: auto;float: left;}
+.textdes ul li div.fleft{width: 92%;margin-left: 1%;float: left;}
+.textdes ul li b:first-child{display: block;font-size: 1rem;line-height: 2.2rem;width: 1.2rem;height: 2.2rem;text-align: center;font-weight: normal;float: left;}
+.textdes ul li ul li b:first-child{display: block;font-size: 1.2rem;line-height: 2rem;width: 1.2rem;height: 2rem;margin-right: 0.3rem;border-radius: 4px;text-align: center;font-weight: normal;color: #666;float: left;}
+/*支付页面价格处*/
+.payment{}
+#pay_total_class{width: 100%;height: 100%;margin: 0;padding: 0;}
+#pay_total_class p.weight{width: 37%;float: left;margin-left: 2%;margin-top: 5px;height: 90%;}
+#pay_total_class p.weight input[type=button]{}
+#pay_total_class p.weight span{width: 100%;float: left;font-size: 1.4rem;line-height: 2.4rem;}
+#pay_total_class p.weight span a{display: block;width: 20%;height: 2.8rem;background: #e02228;font-size: 2.8rem;line-height: 2.8rem;float: left;color: #fff;text-align: center;}
+#pay_total_class p.weight span input{width: 55%;height: 2.8rem;font-size: 1.3rem;line-height: 2.8rem;margin:0 2px;float: left;color: #666;text-align: center;border-radius: 0px;border:1px solid #999}
+#pay_total_class p.price{width: 22%;float: left;margin-left: 2%;}
+#pay_total_class p.price span{width: auto;float: left;font-size: 1.2rem;line-height: 1.2rem;}
+.payment_Submit_Order{float: right;margin-top: -3.8rem;color: #666;width: 40%;}
+#tg_submit{}
+/*托管--确认订单*/
+.buy_num{width: 100%; position: relative;}
+.buy_num i{display: block; width: 97%; height: 1rem; background: #626262; margin: auto; border-radius: 6px; margin-top: 1rem;}
+.buynum{width: 94%; height: 10rem; line-height: 10rem; background:#f3e2ad; margin: -0.5rem auto 0;}
+.buynum p{width: 95%; height: 4.2rem; line-height: 4.2rem; margin: auto; border-bottom: 1px dashed #d2c7ac; font-size: 1.2rem; color: #3d3b31;}
+.buynum p span{float: right;}
+.buynum p:last-of-type{border: none;}
+.buy_num .separate_circle{width: 95%; height: 10px; background: url(../images/separate_circle.png) repeat-x -5px 0; margin-left:2.5%; position: absolute; bottom: -0.5rem;}
+.buy_weight{width: 94%; height: 100%; overflow: hidden; margin:0 auto; background: #fff;}
+.buy_weight p{width: 95%; margin: auto; height: 4rem; line-height: 4rem; font-size: 1.33rem;}
+.buy_weight .beanslide{border-top: 1px dashed #d5d5d5;}
+.buy_weight p>img{width: 1.3rem; vertical-align: middle;}
+.buy_weight p span{color: #E02228;}
+.buy_weight p.use_beans em{font-weight: normal;color: #e02228;font-style: normal;font-size: 1.2rem;}
+#ECS_INTEGRAL{width: 30%;margin: 0 5%;padding: 0;height:3.5rem; line-height: 3.5rem; border: 1px solid #ccc; text-indent: 1rem; float: left;}
+.payment .payment_price p.use_beans{width: auto; line-height: 3.8rem; font-size: 1.5rem; padding-top: 0.5rem; font-weight: normal; color: #666; margin-left:5%;}
+.payment .payment_Submit_Order{background: none;width: 32%;}
+#amount_arrow{width: 2rem; height: 2rem; margin-left: 2rem; margin-top: 0.9rem;}
+.check_mobile{width: 100%; min-height: 100%; margin:auto; background: #fff; padding-bottom: 1rem;}
+.check_mobile p{width: 95%; height: 3.5rem; line-height: 3.5rem; margin: auto;}
+.check_mobile .btn{width:19rem; height: 5rem; line-height: 5rem; margin: 2rem auto 0;}
+.check_mobile .btn input{width: 8rem; height: 3.2rem; line-height:3.2rem; border-radius: 4px; background: #E02228; color: #fff; text-align: center; border: none; float: right; font-size: 1.3rem;}
+.check_mobile .btn input:last-of-type{float: left; background: #FFF; border: 1px solid #e02228; color: #e02228;}
+.check_mobile li a{margin-right: 5%; width: 7rem; height: 3rem; line-height: 3rem;}
+.check_mobile li{padding-left: 5%; height: 3rem; font-size: 1.33rem; line-height: 3rem;}
+#dropdown{width:95%;margin:auto;height:4.5rem;/*float: left;*/font-size: 1.33rem;}
+#dropdown p{width:88%;float: left;height:3.5rem;line-height:3.5rem;margin:0;padding:0;padding-left:2%;color:#999;margin-bottom: 1rem;border: none;}
+#dropdown ul{width:89.3%;height: auto;max-height: 14rem;overflow-y: auto;background:#fff;font-size: 1.33rem;border:1px solid #d8d8d8;border-bottom: none;border-top: none;position:absolute;display:none;margin: 0;padding: 0;}
+#dropdown ul li{height:3.5rem;line-height:3.5rem;font-size: 1.33rem;width: 100%;text-indent:10px;list-style-type:none;margin: 0;padding: 0;}
+#dropdown ul li:first-child{border-top: none;}
+#dropdown ul li a{display:block;height:3.5rem;line-height: 3.5rem;width: 100%;font-size: 1.33rem;text-align:left;font-weight: normal;color:#666;background: #fff;border:none;text-decoration:none;float: left;margin: 0;padding: 0;border-bottom:1px dashed #ccc;}
+#dropdown ul li:last-of-type a{border-bottom:1px solid #ccc;}
+#dropdown b{font-weight: normal;float: left;width: 10%;height:3.5rem;font-size:1.33rem;line-height: 2.6rem;margin: 0;text-align: center;}
+.sel{width: 100%;height:3.5rem;line-height:3.5rem;background:#fff;border:1px solid #d8d8d8;cursor: pointer;}
+.buy_weight .beans a{display: inline-block; width: auto; color: #e02228; font-weight: normal; font-size: 1.33rem; height: 3.5rem; font-family: "微软雅黑"; text-align: center; line-height: 3.5rem; background: #fff; border: 0; float: left;}
+.footer{height: 3.8rem;width: 100%;position: fixed;bottom: 0;}
+.tg_des{width: 100%;background: #fff;height: auto;padding-top:2rem ;}
+.tg_des .tg_logo{width: 10rem;height: 10rem;margin:0 auto 0;background-size: cover;padding-top:2rem ;margin-top: 1rem;}
+.tg_des .redcircle{background-image: url(../images/tg_img/procircle_red.png);}
+.tg_des .bluecircle{background-image: url(../images/tg_img/procircle_blue.png);}
+.tg_des .tg_logo p{width: 100%;text-align: center;color: #999;font-size: 1.1rem;line-height: 3rem;}
+.tg_des a{float: right;display: block;width: 2.6rem;height: 2.6rem;margin-top: -11rem;margin-right: 3rem;}
+.tg_des a img{width: 2.6rem;height: 2.6rem;}
+.prodes .price{width: 24rem;height: 2.8rem;line-height: 2.8rem;font-size: 1.4rem;color: #e02228;border-radius: 1.5rem;border: 1px solid #e02228;margin: 1rem auto 0;text-align: center;}
+/* 注册协议 */
+.popupbox{display: none; /* Hidden as default */float: left;position: fixed;top: 50%; left: 50%;z-index: 99999;-webkit-box-shadow: 0px 0px 20px #000;-moz-box-shadow: 0px 0px 20px #000;box-shadow: 0px 0px 20px #000;}
+#tip_popuprel input[id="save_bank"]{width: 70px;height: 30px;background: #E02228;border: none;border-radius: 5px;color: #fff;margin-left: 120px;margin-right: 15px;}
+#tip_popuprel input{width: 70px;height: 30px;background: #fff;border: 1px solid #E6E6E6;border-radius: 5px;color: #666;}
+#fade{display: none; /* Hidden as default */background: #000;position: fixed;left: 0; top: 0;width: 100%;height: 100%;opacity: .55;z-index: 9999;}
+#fadethis{display: none; /* Hidden as default */background: #000;position: fixed;left: 0; top: 0;width: 100%;height: 100%;opacity: .55;z-index: 9999;}
+#intabdiv{text-align: left;background: white;padding: 10px;}
+#intabdiv .title{height: 40px;text-indent: 20px;color: white;background: #848484;line-height: 40px;font-size: 18px;}
+#spangold{display: block; text-align: center; width: 100%; height: 3.5rem; background: #f1f1f1; border-top:1px solid #ccc;}
+#spangold a{width: 100%; height: 3.5rem; font-size: 1.4rem; display: inline-block; color: #ffffff; background: #df2429; text-align: center; line-height: 3.5rem;}
+.order_sel_weight, .check_order_code{width: 100%; height: 73rem; background: none; position: fixed; z-index: 99999; bottom: 0; color: #666; display: none;}
+.order_sel_weight .proimg{width:7rem;height: 7rem;border: 1px solid #ccc;border-radius: 4px;position: relative;top: -0.8rem;left: 2rem;z-index: 99999;background: #fff;}
+.order_sel_weight .proimg img{width:100%;height: 80%;margin-top: 10%;}
+.order_sel_weight .proweight{width:100%;height: 8.5rem;border-top: 1px solid #ccc;border-bottom: 1px solid #ccc;border-radius: 4px;padding-left: 2%;margin-top: 1rem;}
+.order_sel_weight .proweight b{width:100%;height: 3rem;line-height: 4rem;font-size: 1.33rem;font-weight: normal;float: left;}
+.order_sel_weight .proweight a{float: left;}
+.order_sel_weight .proweight input{float: left;}
+/*合作伙伴*/
+.partner_wrap{width: 100%;}
+.partner_wrap .partner{width: 100%; margin: auto; background: #fff;}
+.partner ul{width: 95%;height:4.5rem ;margin: auto;background: #fff;padding: 0 2.5%;}
+.partner ul:first-child{border-bottom: 1px solid #ebebeb;}
+.partner ul li{width: 33.3%;height: 100%;line-height: 4.5rem;float: left;text-align: center;}
+.partner ul li img{width: 95%;vertical-align: middle;border-right: 1px solid #ebebeb;}
+.partner ul li:last-child img{border: none;}
+/*支付页面价格处*/
+.payment{width: 100%;height: 3.8rem;position: fixed;bottom: 0;border-top: 1px solid #e02228;}
+.payment .payment_price{width: 70%;height: 100%;float: left;background: #fff;padding: 0 5%;}
+.payment .payment_Submit_Order{width: 30%;height: 100%;float: left;background: #e02228;}
+.payment .payment_price p,.payment .payment_Submit_Order input{width: 100%;height: 100%;line-height: 3.8rem;font-size: 1.5rem;font-weight: bold;}
+.payment .price p{color:#ee222d ;}
+.payment .price p img{width: 1.5rem;height: 1.5rem;vertical-align: middle;}
+.payment .price_bottom p{color:#ee222d ;}
+.payment .payment_Submit_Order input{text-align: center;color: #fff;background: #e02228;border: none;margin-top: 0;}
+.order_form_particulars{width: 100%;background: #fff;position: fixed;bottom: 3.5rem;background:rgba(0,0,0,0.8);}
+.order_form_particulars ul{width: 100%;padding: 0.5rem 1rem;box-sizing:border-box;}
+.order_form_particulars ul li{width: 100%;height: 3rem;line-height: 3rem;font-size: 1.4rem;color: #fff;border-bottom: 1px dashed #666;}
+.order_form_particulars ul li strong{font-weight: normal;}
+.order_form_particulars ul li span{float: right;color: #fff;}

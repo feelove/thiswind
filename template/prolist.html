@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=0">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="format-detection" content="telephone=no">
+		<!--iPhone/iPod Touch上将网页"添加至主屏幕"时，去掉icon上的透明层-->
+		<link rel="apple-touch-icon-precomposed" href="images/apple-touch-icon.png">
+		<link rel="stylesheet" type="text/css" href="../css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/prolist.css"/>
+		<script type="text/javascript" src="../js/jquery.min.js"></script>
+		<style type="text/css">
+			hr{margin-top: 1.5rem;}
+			.goodimg_bg{background-color: #ccc;}
+		</style>
+		<title>常见布局</title>
+		<!--图片加载失败显示默认图片-->
+		<script type="text/javascript">
+			$(document).ready(function(){
+			  	$(".good_img").error(function(){
+			    	$(this).attr('src',"../images/img_bg4.jpg");
+			 	});
+			});
+		</script>
+	</head>
+	<body>
+		<a href="index.html" class="square_btn fixed_top" style="font-size: 1.2rem;">首页</a>
+		<div class="">
+			<hr />
+			<p class="validate_text">下面是每排一个的产品列表,正常价格和活动价只显示一个</p>
+			<div class="probox_one" onclick="location.href='#'">
+			    <div class="proone_left">
+			    	<img class="good_img" src="../images/pro_demo.png" alt="产品">
+			    </div>
+			    <div class="proone_right">
+			    	<p class="good_name">产品名称</p>
+	                <p class="good_price">￥888.88(只显示原价)</p>
+	                <p class="good_salenum">已售:XXX件件</p>
+	                <p class="good_commit">99.99%好评(99人已评)</p>
+			    </div>
+			</div>
+			<div class="probox_one" onclick="location.href='#'">
+			    <div class="proone_left">
+			    	<img class="good_img" src="../images/pro_demo.png" alt="产品">
+			    </div>
+			    <div class="proone_right">
+			    	<p class="good_name">产品名称</p>
+	                <p class="good_price"><font>活动价:</font>￥666.66（只显示活动价）</p>
+	                <p class="good_salenum">已售:XXX件件</p>
+	                <p class="good_commit">99.99%好评(99人已评)</p>
+			    </div>
+			</div>
+		</div>
+		<hr />
+		<div>
+			<p class="validate_text" style="background-color: #fff;">下面是产品框没有背景的每排2个的产品列表,第一个产品为加载不出来图像时候显示默认Kslogo图</p>
+			<div class="probox_double" onclick="location.href='#'">
+				<img src="" alt="{$goods.goods_name}" class="good_img" />
+				<p class="good_name">产品名称</p>
+				<p class="good_price">￥888.88</p>
+			</div>
+			<div class="probox_double" onclick="location.href='#'">
+				<img src="../images/pro_demo.png" alt="{$goods.goods_name}" class="good_img" />
+				<p class="good_name">产品名称</p>
+				<p class="good_price">￥888.88</p>
+			</div>
+			<div class="probox_double" onclick="location.href='#'">
+				<img src="../images/pro_demo.png" alt="{$goods.goods_name}" class="good_img" />
+				<p class="good_name">产品名称</p>
+				<p class="good_price">￥888.88</p>
+			</div>
+			<div class="probox_double" onclick="location.href='#'">
+				<img src="../images/pro_demo.png" alt="{$goods.goods_name}" class="good_img" />
+				<p class="good_name">产品名称</p>
+				<p class="good_price">￥888.88</p>
+			</div>
+		</div>
+
+		<p class="validate_text">下面是产品框有背景的每排2个的产品列表，且有按钮样式</p>
+		<div class="prolist_bg" style="background-color: red;">
+			<p style="color: #fff;">这是整个双排列表的背景，这里作为示例设置其背景为红色,并设置产品图片背景为灰色、加上购买按钮</p>
+			<div class="probox_double" onclick="location.href='#'">
+				<div class="goodimg_bg">
+					<img src="../images/pro_demo.png" alt="{$goods.goods_name}" class="good_img" />
+				</div>
+				<p class="good_name">产品名称</p>
+				<p class="good_price">￥888.88</p>
+				<a href="#" class="btn good_btn">去购买</a>
+			</div>
+			<div class="probox_double" onclick="location.href='#'">
+				<div class="goodimg_bg">
+					<img src="../images/pro_demo.png" alt="{$goods.goods_name}" class="good_img" />
+				</div>
+				<p class="good_name">产品名称</p>
+				<p class="good_price">￥888.88</p>
+				<a href="#" class="btn good_btn">去购买</a>
+			</div>
+			<div class="probox_double" onclick="location.href='#'">
+				<div class="goodimg_bg">
+					<img src="../images/pro_demo.png" alt="{$goods.goods_name}" class="good_img" />
+				</div>
+				<p class="good_name">产品名称</p>
+				<p class="good_price">￥888.88</p>
+				<a href="#" class="btn good_btn">去购买</a>
+			</div>
+			<div class="probox_double" onclick="location.href='#'">
+				<div class="goodimg_bg">
+					<img src="../images/pro_demo.png" alt="{$goods.goods_name}" class="good_img" />
+				</div>
+				<p class="good_name">产品名称</p>
+				<p class="good_price">￥888.88</p>
+				<a href="#" class="btn good_btn">去购买</a>
+			</div>
+		</div>
+
+	</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=0">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="format-detection" content="telephone=no">
+		<meta http-equiv="Refresh" content="20;URL=index.html">
+		<meta http-equiv="Page-Enter" contect="revealTrans(duration=10,transtion= 50)">
+		<meta http-equiv="Page-Exit" contect="revealTrans(duration=20，transtion=6)">
+		<link rel="stylesheet" type="text/css" href="../css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/flexsider.css" />
+		<script type="text/javascript" src="../js/jquery.min.js"></script>
+		<script type="text/javascript" src="../js/jquery.flexslider-min.js"></script>
+		<title>flexslider</title>
+		<style type="text/css">
+			body{background: #fff;min-height: 100%;width: 100%;}
+			img{width: 100%;}
+			.flex-prev,.flex-next{display: none !important }
+			.flex-control-paging li a{background: #fff;border: 1px solid #fbaa95;}
+			.flex-control-paging li a.flex-active{background: #ff6401;border: 1px solid #ff6401;}
+			.flex-control-nav{bottom: -2rem;}
+		</style>
+	</head>
+	<body>
+		<div class="flexslider" style="margin-top: 5rem;">
+			<ul class="slides">
+				<li>
+					<img src="../images/savabanner_1.jpg" />
+				</li>
+				<li>
+					<img src="../images/savabanner_2.jpg" />
+				</li>
+				<li>
+					<img src="../images/savabanner_3.jpg" />
+				</li>
+				<li>
+					<img src="../images/savabanner_4.jpg" />
+				</li>
+				<li>
+					<img src="../images/savabanner_5.jpg" />
+				</li>
+			</ul>
+		</div>
+		<a href="index.html" class="square_btn fixed_top" style="font-size: 1.2rem;">首页</a>
+	</body>
+	<script type="text/javascript">
+		$(window).load(function() {
+			$('.flexslider').flexslider({
+				animation: "slide",
+			});
+		});
+	</script>
+</html>

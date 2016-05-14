@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=0">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="format-detection" content="telephone=no">
+		<!--iPhone/iPod Touch上将网页"添加至主屏幕"时，去掉icon上的透明层-->
+		<link rel="apple-touch-icon-precomposed" href="images/apple-touch-icon.png">
+		<link rel="stylesheet" type="text/css" href="../css/common.css"/>
+		<script type="text/javascript" src="../js/jquery.min.js"></script>
+		<title>按钮的样式说明</title>
+		<style type="text/css">
+			a,p{margin-bottom: 0.2rem;}
+		</style>
+	</head>
+	<body>
+		<div class="padding_center redborder heightauto">
+			<p class="validate_text">*此页面是一个有padding的框，不是以下按钮所带的padding</p>
+			<a href="#" class="btn">默认按钮样式，button型的input或class中有“btn”</a>
+			<a href="#" class="btn btnred">红色的按钮，色值为f1594e</a>
+			<a href="#" class="btn btnblue">蓝色的按钮，色值为606cbf</a>
+			<a href="#" class="btn btnwhite">白色的按钮，色值为fff</a>
+			<a href="#" class="btn btndisabled">不可点击的按钮（灰色），色值为999</a>
+			<a href="#" class="btn bigbtn">更大一点的按钮，高度5rem</a>
+			<p>
+				<a href="#" class="btn smallbtn" style="display: inline-block;">smallbtn</a>
+				<em style="display: inline">*小一点的按钮高3rem；宽6rem</em>
+			</p>
+			<p>
+				<a href="#" class="btn square_btn" style="display: inline-block;">-</a>
+				<a href="#" class="btn square_btn" style="display: inline-block;">+</a>
+				<em style="display: inline">*方形的按钮，高3rem；宽3rem</em>
+			</p>
+			<p>
+				<a href="#" class="btn square_btn_small" style="display: inline-block;">-</a>
+				<a href="#" class="btn square_btn_small" style="display: inline-block;">+</a>
+				<em style="display: inline">*最小方形的按钮，高2rem；宽2rem</em>
+			</p>
+			<p class="radiusbtn">
+				<input type="button" name="" id="" value="radiusleft" />
+				<input type="button" name="" id="" value="radiusright" />
+				<em class="validate_text">*上面是左右radius拼接按钮，可加上class换颜色</em>
+			</p>
+		</div>
+		<p class="validate_text" style="position: fixed;bottom: 4rem;">*下面是固定在底部的双按钮，左边表示取消，右边表示确定</p>
+		<div class="botbtn">
+			<input type="button" class="btnhalf btnwhite" name="" id="" value="左边白色" />
+			<input type="button" class="btnhalf " name="" id="" value="确定（默认色值#e02228）" />
+		</div>
+		<a href="index.html" class="square_btn fixed_top" style="font-size: 1.2rem;">首页</a>
+	</body>
+</html>
