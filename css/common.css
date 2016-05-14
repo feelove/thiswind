@@ -1,0 +1,286 @@
+/************************公用样式************************/
+/*reset*/
+html,body,h1,h2,h3,h4,h5,h6,div,dl,dt,dd,ul,a,ol,li,img,p,blockquote,pre,hr,figure,table,caption,th,td,form,fieldset,legend,input,
+    button,textarea,menu{margin: 0; padding: 0;-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+body{background: #f4f4f4; height: auto; min-height:100%; width: 100%; overflow:auto; font-size: 1.2rem;-webkit-tap-highlight-color: none;
+    font-family: Arial, "Microsoft YaHei", "微软雅黑","宋体"; color: #666;}
+a{text-decoration: none; outline: none; font-family: Arial, "Microsoft YaHei", "微软雅黑","宋体"}
+ul{list-style: none; overflow: hidden;}
+li{list-style:none;}
+table{border-collapse:collapse; border-spacing:0;}
+caption,th{text-align:center; font-weight:normal;}
+i,em{font-style:normal;}
+sup,sub{font-size:83%;}
+textarea{width: 100%; overflow:auto; padding: 0.5rem; text-indent: 1rem; line-height: 2rem;}
+h1,h2,h3,h4,h5,h6,em,strong,b{font-weight:normal;}
+*:before,*:after{-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+hr{-webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box;}
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder{color: #999;}
+input[type=button],button,a{-webkit-tap-highlight-color: none;appearance: none;-moz-appearance: none;-webkit-appearance: none;}
+
+/**********************媒体查询******************/
+@media only screen and (max-device-width:320px){html{font-size: 56.25%;}}
+@media only screen and (min-device-width:321px) and (max-device-width:360px){html{font-size: 62.5%;}}
+@media only screen and (min-device-width:361px) and (max-device-width:375px){html{font-size: 65.1%;}}
+@media only screen and (min-device-width:376px) and (max-device-width:384px){html{font-size: 67%;}}
+@media only screen and (min-device-width:385px) and (max-device-width:414px){html{font-size: 71.9%;}}
+@media only screen and (min-device-width:415px) and (max-device-width:432px){html{font-size: 75%;}}
+@media only screen and (min-device-width:433px) and (max-device-width:480px){html{font-size: 83.3%;}}
+@media only screen and (min-device-width:481px) and (max-device-width:505px){html{font-size: 87.7%;}}
+@media only screen and (min-device-width:506px) and (max-device-width:568px){html{font-size: 98.6%;}}
+@media only screen and (min-device-width:569px) and (max-device-width:632px){html{font-size: 110%;}}
+@media only screen and (min-device-width:633px) and (max-device-width:665px){html{font-size: 122%;}}
+@media only screen and (min-device-width:666px){html{font-size: 125%;}}
+@media only screen and (min-device-width:566px) and (max-device-width:766px) and (max-device-height:500px){html{font-size: 87.7%;}
+.viewport{max-width:450px;}
+.maxwid100{max-width:450px;}}
+@media only screen and (min-device-width:720px) and (max-device-width:1081px) and (min-device-height:960px){html{font-size: 62.5%;}}
+@media only screen and (min-device-width:1082px) and (max-device-width:1160px) and (min-device-height:1180px){html{font-size: 65%;}}
+/*2K分辨率倍率为4*/
+@media only screen and (min-device-width:1161px) and (min-device-height:1800px){html{font-size: 62.5%;}}
+@media only screen and (min-device-width:1161px) and (min-device-height:1800px){html{font-size: 75%;}}
+/*ipad专用分辨率*/ @media only screen and (device-width:768px)and (device-height:1024px){html{font-size: 125%;}
+.viewport{max-width:450px;}
+.maxwid100{max-width:450px;}}
+
+/*****辅助样式*****/
+/*宽度、边框*/
+.clear {clear: both;}
+.width90 {width:90% !important;margin-left: 5%;}
+.width80 {width:80% !important;margin-left: 10%;}
+.width50 {width:50% !important;}
+.width49 {width:49% !important;}
+.width33 {width:33.3% !important;}
+.fr {float: right !important;}
+.fl {float: left !important;}
+.noindent {text-indent: 0 !important;}
+
+/*border不同样式*/
+.nobord {border: 0 !important;}
+.nobleft {border-left: 0 !important;}
+.nobright {border-right: 0 !important;}
+.nobtop {border-top: 0 !important;}
+.nobbot {border-bottom: 0 !important;}
+.redborder{border: 1px solid #e02228;}
+.grayborder{border: 1px solid #ccc;}
+
+/*radius不同样式*/
+.noradius {border-radius:0 !important;}
+.radius {border-radius: 0.5rem !important;}
+.radiustop {border-radius: 0.5rem 0.5rem 0 0 !important;}
+.radiusbot {border-radius: 0 0 0.5rem 0.5rem !important; margin-top: -1px;}
+.radiusleft {border-radius: 0.5rem 0 0 0.5rem !important; float: left;}
+.radiusright {border-radius: 0 0.5rem 0.5rem 0 !important; margin-left: -1px; float: left;}
+
+/*用于固定定位的块元素*/
+.maxwid100{max-width:100%; left: 0 !important; right: 0 !important;}
+.viewport{width: 100%; height: auto; margin:0 auto; padding-bottom: 2rem;position: absolute; overflow: auto;min-height: 100%;}
+
+/*选择框*/
+select{height: 3rem; line-height: 3rem; text-indent: 1rem; border: 1px solid #d4d4d4; background-color: #fff; font-family: "微软雅黑";}
+option{color: #666; width: 100%; height: 3rem; line-height: 3rem; text-indent: 1rem;}
+option:hover{background-color: #09c;}
+
+/*a标签*/
+a{background-color: transparent;text-decoration:none; font-size: 1.2rem; font-family: Arial, "Microsoft YaHei", "微软雅黑",SimSun, "宋体"; color: inherit; outline: none; display: block;}
+a:active,a:hover{outline: 0; text-decoration:none;}
+a:visited{text-decoration: none;}
+
+/*输入框*/
+input{width: 100%; height:3.8rem; line-height:3.8rem; color:#666; border:1px solid #c9c9c9; border-radius:0.5rem; text-indent:1rem; background:none; outline: none; background-color: #fff; font-family: Arial, "Microsoft YaHei", "微软雅黑",SimSun, "宋体";}
+/*手机浏览器上的输入框光标过大问题采用padding来解决*/
+input[type=text],input[type=password],input[type=number]{line-height: 1.6rem;padding: 1.3rem 0 1.3rem 1rem;}
+input[type=checkbox],input[type=radio]{height: 2rem; width: 2rem;}
+input[type=button],.btn{width: 100%; height:3.8rem; line-height:3.8rem; font-size: 1.4rem; text-align: center; text-indent: 0; border: none; border-radius: 0.5rem; background-color: #e02228; color: #fff;}
+.input_screen{width: 100%;border: 1px solid #ccc;border-width: 1px 0 1px 0;border-radius: 0;}
+/****图片样式****/
+.bannerimg{width: 100%; height: auto; display: block; min-height: 3rem;}
+.mainico{width: 20%; margin: 1rem 40%;}
+
+/*****button.css*****/
+/*****输入框*****/
+.biginput {height: 5rem; line-height: 5rem; background: #fff; font-size: 1.4rem;}
+.inputborder {border: 1px solid #eaeaea !important}
+.btnborder {border: 1px solid #dfdfdf !important}
+
+/*按钮****默认（#e02228），红色，蓝色，灰化，居中（附加样式）***************/
+input[type=button]{width: 100%; height:3.8rem; line-height:3.8rem; font-size: 1.4rem; text-align: center; text-indent: 0; border: none; border-radius: 0.5rem; background-color: #e02228; color: #fff;}
+.btn {width: 100%; height:3.8rem; line-height:3.8rem; font-size: 1.4rem; text-align: center; text-indent: 0; border: none; border-radius: 0.5rem; background-color: #e02228; color: #fff;}
+.btnred {width: 100%; height:3.8rem; line-height:3.8rem; font-size: 1.4rem; text-align: center; border: none; border-radius: 0.5rem; background-color: #f1594e; color: #fff;}
+.btnblue {width: 100%; height:3.8rem; line-height:3.8rem; font-size: 1.4rem; text-align: center; border: none; border-radius: 0.5rem; background-color: #606cbf; color: #fff;}
+.btngreen {width: 100%; height:3.8rem; line-height:3.8rem; font-size: 1.4rem; text-align: center; border: none; border-radius: 0.5rem; background-color: #e1a043; color: #fff;}
+.btnwhite {width: 100%; height:3.8rem; line-height:3.8rem; font-size: 1.4rem; text-align: center; border: 1px solid #ccc !important; border-radius: 0.5rem; background-color: #fff !important; color: #666 !important;}
+.btndisabled {width: 100%; height:3.8rem; line-height:3.8rem; font-size: 1.4rem; text-align: center; border: none; border-radius: 0.5rem; background-color: #999; color: #666; pointer-events: none;cursor: not-allowed;}
+.centerbtn {width: 100%; display: block; width: auto; margin: 1rem auto;}
+.bigbtn {width: 100%; height: 5rem !important; line-height: 5rem !important;border-radius: 0.5rem; background: #e02228; color: #fff; font-size: 1.6rem !important;}
+.bigbtn_white {width: 100%; height: 5rem !important; line-height: 5rem !important;border-radius: 0.5rem; border: 1px solid #ccc; background: #fff; color: #666; font-size: 1.6rem !important;}
+.smallbtn {width: 6rem !important; height: 3rem !important; line-height: 3rem !important; text-align: center;font-size: 1.2rem; text-indent: 0;}
+.square_btn {width: 3rem !important;margin: 0 1px; height: 3rem !important; line-height: 3rem !important; text-align: center; text-indent: 0; font-size: 2.2rem; background: #e02228; color: #fff; border-radius: 0 !important;}
+.square_btn_small {width: 2rem !important; height: 2rem !important; line-height: 2rem !important; text-align: center; text-indent: 0; font-size: 1.6rem; background: #e02228; color: #fff; border-radius: 0 !important;}
+.square_btn_gray {width: 3rem !important; height: 3rem !important; line-height: 3rem !important; text-align: center; text-indent: 0; font-size: 2.2rem; background: #aaa; color: #666; border-radius: 0 !important;}
+.btn_center {width: 90% !important; margin-left: 5% !important;}
+.radiusbtn input:first-child{border-radius: 0.5rem 0 0 0.5rem;width: 50%;float: left;}
+.radiusbtn input:last-of-type{border-radius: 0 0.5rem 0.5rem 0;width: 50%;float: left;}
+/*****textstyle.css*****/
+/*标题、文字、链接*/
+.bluelink {display: block; color: #36c; font-size: 1.3rem;}
+.bluelink:hover {color: #e02228;}
+.grayline_link {color: #666; text-decoration: underline;}
+.innerhref {display: inline-block;color: #e02228;line-height: inherit;}
+.tit_bigcenter {font-size: 1.8rem !important; line-height: 3rem; text-indent: 0; text-align: center; font-weight: normal;}
+.tit_normalcenter {font-size: 1.5rem !important; line-height: 2.4rem; text-indent: 0; text-align: center; font-weight: normal;}
+.tit_smallcenter {font-size: 1.4rem !important; line-height: 2rem; text-indent: 0; text-align: center; font-weight: normal;}
+.tit_bigleft {font-size: 1.8rem !important; line-height: 3rem; text-indent: 1rem; text-align: left; font-weight: normal;}
+.tit_normalleft {font-size: 1.5rem !important; line-height: 2.4rem; text-indent: 1rem; text-align: left; font-weight: normal;}
+.tit_normalleft_margin{font-size: 1.5rem !important; line-height: 2.4rem; text-indent: 1rem;margin-top: 1rem; text-align: left; font-weight: normal;}
+.tit_smallleft {font-size: 1.3rem !important; line-height: 2rem; text-indent: 1rem; text-align: left; font-weight: normal;}
+.content_center {padding:0.5rem; width: 100%; text-align: center; text-indent: 0;}
+.content_left {padding:0.5rem;width: 100%; text-align: left; text-indent: 2rem;}
+.ks_agreement {width: auto; display: inline-block; line-height: inherit; color: #36c;}
+.blue_href {width: auto; line-height: inherit; color: #36c; text-decoration: underline;}
+.normal_href {width: auto; line-height: inherit; color: #inherit; text-decoration: underline;}
+.blue_href_nonedec {width: auto; line-height: inherit; color: #36c; text-decoration: none;}
+.btnhref{width: 100%;text-align: center;height: 3rem;line-height: 3rem;}
+/*****验证文字******/
+.validate_text {font-size:1.1rem;line-height: 1.6rem; color: #e02228;text-indent: 1rem;}
+
+/*****价格文字******/
+.good-price {text-align: center; width: 100%; color: #e02228;}
+.good-name {color: #333; text-align: center; width: 100%;}
+.price-down {padding: .5rem 0 0 0; color: #e02228; line-height: 1.5rem;}
+
+/*****layout.css*****/
+/*固定底部的按钮、菜单*/
+.botbtn{width: 100%; height: 3.8rem; position: fixed; bottom: 0;z-index: 9;}
+.botbtn .btn,.botbtn input[type=button]{border-radius: 0;}
+.botbtn .btnhalf{width: 50%; height: 3.8rem; float: left; border-radius: 0;}
+.botbtn .btn33{width: 33.33%; height: 3.8rem; float: left; border-radius: 0;border-left: 1px solid #fff;}
+.botbtn .btn33:first-of-type{border: none;}
+.botmenu{width: 100%; height: auto; position: fixed; bottom: 0; z-index: 9;}
+.topheader{width: 100%; height: 3.5rem; line-height: 3.5rem; position: fixed; top: 0; z-index: 99;}
+.fixed_top{position: fixed;top: 0;right: 0;}
+.heightauto{height: auto;overflow: hidden;}
+/*左右布局的div*/
+.div90{width: 90% !important;margin: 0 5%;}
+.div96{width: 96% !important;margin: 0 2%;}
+.left60{width: 60% !important;float: left;}
+.left40{width: 40% !important;float: left;}
+.left30{width: 30% !important;float: left;}
+.left33{width: 33.3% !important;float: left;}
+.left50{width: 50% !important;float: left;}
+.right40{width: 40% !important;float: right;}
+.height5{width: 100%; height: 5rem; line-height: 5rem; margin: 0.5rem 0;}
+.margintop2{margin-top: 2rem !important;}
+.margintop1{margin-top: 1rem !important;}
+.padding_center{width: 100%;padding: 0.5rem 1rem;}
+.zindex99{z-index: 99;}
+/******************header_footer.css****************/
+header{width:100%; height: 3.5rem; line-height: 3.5rem; text-align: center; background: #f5f5f5; color: #403c3b; border-bottom: 1px solid #d4d4d4; position: relative; top: 0;}
+header span{display: inline-block; height: 2.5rem; width: 2.55rem; margin: 0.5rem auto;}
+header span.page-title{width: 60%; height: 3.5rem; display: block; margin: auto; color: #403c3b; font-size: 1.5rem; line-height: 3.8rem; text-align: center; float: left;}
+header a{width: 20%; height: 100%; display: block; overflow: hidden; position:relative; float: left;}
+header a.back span{background: url(../../mobile/images/head_return.png); background-size:cover;}
+header a.menu span{background: url(../../mobile/images/header_menu.png); background-size:cover;}
+header .menu{float: left;}
+header .search img{width: 2.8rem; height: 2.8rem; max-width: 60px; max-height: 60px; position: absolute; margin: auto; top: 0; right: 1rem; bottom: 0;}
+.header_right{width: 12rem; height: 15rem; display: none; position: absolute; right: 0.5rem; top: 3.5rem; background: url(../../mobile/images/menubg.png); background-size: 100% 100%; color: #666; z-index: 999999;}
+.header_right ul{width: 100%; margin-top: 1.5rem; height: 16rem;}
+.header_right ul li{width: 96%; height:4rem; line-height: 4rem; float: left;}
+.header_right li img{width: 2rem; height: 2rem; margin: 1rem 0 1rem 1.5rem; float: left;}
+.header_right li a{display: block; width:6rem; height: 4rem; line-height: 4.2rem; float: left; color: #666; font-size: 1.4rem; margin-left: 1rem; text-align: left;}
+.transall{width: 100%; height: 100rem; position: fixed; z-index: 999; background: #fff; opacity: 0.01; display: none;}
+
+/********************页脚******************/
+.main_footmenu{margin: 0 auto;border-top: 1px solid #d4d4d4;height: 5rem;background: #fff;}
+.main_footmenu .memu_1 img{width: 2.8rem; height: 2.5rem; margin: 0.5rem auto 0;}
+.main_footmenu .memu_1 a{width: 100%; height: 100%; color: #333;}
+.main_footmenu .memu_1 b{width: 100%; text-align: center; font-weight: normal; color: #333; float: left; height: 1.5rem; line-height: 1.4rem;}
+.main_footmenu .menuon b{width: 100%; text-align: center; font-weight: normal; color: #fff; float: left; height: 1.5rem; line-height: 1.4rem;}
+.main_footmenu .memu_1{width: 100%; height: 5rem; text-align:center; background: #fff;}
+.main_footmenu .menuon{background: #e02228;}
+.main_footmenu ul{width: 100%; height: 5rem;}
+.main_footmenu .memu{width: 20%; height: 5rem; float: left;}
+
+
+/*****modular.css******/
+/*阴影box*/
+.fadebox{width: 100%; min-height:100%; position: fixed; z-index: 999; background: #000; opacity: 0.6; top: 0; left: 0; display: none;}
+
+/*弹出box*/
+.popbox{width: auto; height: auto; min-width: 10rem; min-height: 10rem; position:fixed; margin-left:50%; margin-top:50%; z-index: 9999; transform: translate(-50%,-50%);}
+/*用来捕捉点击事件的透明层（可用冒泡优化）*/
+.transall{width: 100%; height: 100rem; position: fixed; z-index: 99; background: #fff; opacity: 0.01; display: none;}
+
+/***加载动画(目前只在产品列表页)***/
+.loadinggif{width: 100%; height: 4rem; font-size: 1.2rem; line-height: 6rem; text-align: center; display: block; margin-top: -1rem; margin-bottom: -3rem;}
+.loadinggif img{display: none; width: 3rem; height: auto; background: none; margin: 2rem auto;}
+
+/*****翻页******/
+#pager{width: 90%; height: 3rem; margin: 3.6rem auto;}
+#pager a{width: 35%; height: 3rem; line-height: 3rem; text-align: center; display: block; font-size: 1.33rem; color: #FFFFFF; background: #e02228;}
+#pager .cur_page{width: 30%; height: 100%; text-align: center; font-size: 1.8rem; line-height: 3rem; letter-spacing: 0.5rem; display: block; float: left;}
+.perv_page{float: left;}
+.next_page{float: right;}
+#pager .perv_page_no{float: left; background: #dddbdc;}
+#pager .next_page_no{float: right; background: #dddbdc;}
+
+/*几种查询结果*/
+.resultbox{width: 100%; height: auto;}
+.resultbox .resultpic{width: 20%; height: auto; display: block; margin: 1rem 40%;}
+.resultbox .resultpic_big{width: 30%; height: auto; display: block; margin: 1rem 35%;}
+.resulttip{width:100%;padding: 0 2rem; line-height: 2rem; text-align: center; color: #333; font-size: 1.33rem; margin-top: 2rem; margin-bottom: 0.5rem;}
+.result_tip_red{width:100%;padding: 0 2rem;  line-height: 2rem; text-align: center; color: #e02228; font-size: 1.5rem; margin-top: 2rem; margin-bottom: 0.5rem;}
+.result_tipsmall{width:100%;padding: 0 2rem;  line-height: 2rem; text-align: center; color: #666; font-size: 1.2rem;}
+.resultbtn{width:30%; margin: 2rem auto; height: 3.5rem; line-height: 3.5rem; font-size: 1.4rem;}
+.resultbox .resulthref{width: 100%;text-align: center; line-height: 3rem;height: 3rem; color: #36c; text-decoration: underline;}
+
+/****************成功操作页面****************/
+.success_page{width: 100%; height: auto; overflow: hidden; background: #fff;}
+.sucpic_red{width: 7rem; height:7rem; margin: 3rem auto 1.5rem; background: url(../images/icon/ico_success.png); background-size: cover;}
+.sucpic_green{width: 7rem; height:7rem; margin: 3rem auto 1.5rem; background: url(../images/icon/ico_success2.png); background-size: cover;}
+.suctit{width: 100%; font-size: 1.5rem; text-align: center; line-height: 2rem; margin-bottom: 1rem;}
+.sucdesc{width: 100%; font-size: 1.2rem; text-align: center; line-height: 1.8rem;}
+.addpic{width: 90%; margin:0 5%;}
+
+/****************iconpic.css****************/
+/*箭头样式*/
+.arrow1_up {display: inline-block; width: 1rem; height: 1rem; background: url(../../mobile/images/icon/arrow1.png); background-size: cover; transform:rotate(0deg); -webkit-transform:rotate(0deg);}
+.arrow1_right {display: inline-block; width: 1rem; height: 1rem; background: url(../../mobile/images/icon/arrow1.png); background-size: cover; transform:rotate(90deg); -webkit-transform:rotate(90deg);}
+.arrow1_down {display: inline-block; width: 1rem; height: 1rem; background: url(../../mobile/images/icon/arrow1.png); background-size: cover; transform:rotate(180deg); -webkit-transform:rotate(180deg);}
+.arrow1_left {display: inline-block; width: 1rem; height: 1rem; background: url(../../mobile/images/icon/arrow1.png); background-size: cover; transform:rotate(270deg); -webkit-transform:rotate(270deg);}
+.arrow2_up {display: inline-block; width: 1rem; height: 1rem; background: url(../../mobile/images/icon/arrow2.png); background-size: cover; transform:rotate(0deg); -webkit-transform:rotate(0deg);}
+.arrow2_right {display: inline-block; width: 1rem; height: 1rem; background: url(../../mobile/images/icon/arrow2.png); background-size: cover; transform:rotate(90deg); -webkit-transform:rotate(90deg);}
+.arrow2_down {display: inline-block; width: 1rem; height: 1rem; background: url(../../mobile/images/icon/arrow2.png); background-size: cover; transform:rotate(180deg); -webkit-transform:rotate(180deg);}
+.arrow2_left {display: inline-block; width: 1rem; height: 1rem; background: url(../../mobile/images/icon/arrow2.png); background-size: cover; transform:rotate(270deg); -webkit-transform:rotate(270deg);}
+.arrow3_up {display: inline-block; width: 1rem; height: 1rem; background: url(../../mobile/images/icon/arrow3.png); background-size: cover; transform:rotate(0deg); -webkit-transform:rotate(0deg);}
+.arrow3_right {display: inline-block; width: 1rem; height: 1rem; background: url(../../mobile/images/icon/arrow3.png); background-size: cover; transform:rotate(90deg); -webkit-transform:rotate(90deg);}
+.arrow3_down {display: inline-block; width: 1rem; height: 1rem; background: url(../../mobile/images/icon/arrow3.png); background-size: cover; transform:rotate(180deg); -webkit-transform:rotate(180deg);}
+.arrow3_left {display: inline-block; width: 1rem; height: 1rem; background: url(../../mobile/images/icon/arrow3.png); background-size: cover; transform:rotate(270deg); -webkit-transform:rotate(270deg);}
+.arrow4_up {display: inline-block; width: 1rem; height: 1rem; background: url(../../mobile/images/icon/arrow4.png); background-size: cover; transform:rotate(0deg); -webkit-transform:rotate(0deg);}
+.arrow4_right {display: inline-block; width: 1rem; height: 1rem; background: url(../../mobile/images/icon/arrow4.png); background-size: cover; transform:rotate(90deg); -webkit-transform:rotate(90deg);}
+.arrow4_down {display: inline-block; width: 1rem; height: 1rem; background: url(../../mobile/images/icon/arrow4.png); background-size: cover; transform:rotate(180deg); -webkit-transform:rotate(180deg);}
+.arrow4_left {display: inline-block; width: 1rem; height: 1rem; background: url(../../mobile/images/icon/arrow4.png); background-size: cover; transform:rotate(270deg); -webkit-transform:rotate(270deg);}
+.arrow5_up {display: inline-block; width: 1rem; height: 1rem; background: url(../../mobile/images/icon/arrow5.png); background-size: cover; transform:rotate(0deg); -webkit-transform:rotate(0deg);}
+.arrow5_right {display: inline-block; width: 1rem; height: 1rem; background: url(../../mobile/images/icon/arrow5.png); background-size: cover; transform:rotate(90deg); -webkit-transform:rotate(90deg);}
+.arrow5_down {display: inline-block; width: 1rem; height: 1rem; background: url(../../mobile/images/icon/arrow5.png); background-size: cover; transform:rotate(180deg); -webkit-transform:rotate(180deg);}
+.arrow5_left {display: inline-block; width: 1rem; height: 1rem; background: url(../../mobile/images/icon/arrow5.png); background-size: cover; transform:rotate(270deg); -webkit-transform:rotate(270deg);}
+.arrow6_up {display: inline-block; width: 1rem; height: 1rem; background: url(../../mobile/images/icon/arrow6.png); background-size: cover; transform:rotate(0deg); -webkit-transform:rotate(0deg);}
+.arrow6_right {display: inline-block; width: 1rem; height: 1rem; background: url(../../mobile/images/icon/arrow6.png); background-size: cover; transform:rotate(90deg); -webkit-transform:rotate(90deg);}
+.arrow6_down {display: inline-block; width: 1rem; height: 1rem; background: url(../../mobile/images/icon/arrow6.png); background-size: cover; transform:rotate(180deg); -webkit-transform:rotate(180deg);}
+.arrow6_left {display: inline-block; width: 1rem; height: 1rem; background: url(../../mobile/images/icon/arrow6.png); background-size: cover; transform:rotate(270deg); -webkit-transform:rotate(270deg);}
+.arrow7_up {display: inline-block; width: 1rem; height: 1rem; background: url(../../mobile/images/icon/arrow7.png); background-size: cover; transform:rotate(0deg); -webkit-transform:rotate(0deg);}
+.arrow7_right {display: inline-block; width: 1rem; height: 1rem; background: url(../../mobile/images/icon/arrow7.png); background-size: cover; transform:rotate(90deg); -webkit-transform:rotate(90deg);}
+.arrow7_down {display: inline-block; width: 1rem; height: 1rem; background: url(../../mobile/images/icon/arrow7.png); background-size: cover; transform:rotate(180deg); -webkit-transform:rotate(180deg);}
+.arrow7_left {display: inline-block; width: 1rem; height: 1rem; background: url(../../mobile/images/icon/arrow7.png); background-size: cover; transform:rotate(270deg); -webkit-transform:rotate(270deg);}
+.arrow8 {display: inline-block; width: 1rem; height: 1rem; background: url(../../mobile/images/icon/arrow8.png); background-size: cover;}
+.arrow9 {display: inline-block; width: 1rem; height: 1rem; background: url(../../mobile/images/icon/arrow9.png); background-size: cover;}
+
+/********其它icon图标合集********/
+/*手机样式*/
+.icon_phone {width: 3rem; height: 3rem; display:inline-block; background: url(../../mobile/images/icon/icon_phone.png); background-size: cover;}
+/*密码样式*/
+.icon_password {width: 3rem; height: 3rem; display:inline-block; background: url(../../mobile/images/icon/icon_password.png); background-size: cover;}
+/*验证样式*/
+.icon_picheck {width: 3rem; height: 3rem; display:inline-block; background: url(../../mobile/images/icon/icon_picheck.png); background-size: cover;}
+/*验证样式*/
+.icon_check {width: 3rem; height: 3rem; display:inline-block; background: url(../mobile/images/icon/icon_check.png); background-size: cover;}
